@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\STM32F10X_FWLIB\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\oled12864\oled_source -I..\HARDWARE\oled12864\oled -I..\HARDWARE\infrared -I..\HARDWARE\timer2 
+-I E:\keilforarm\ARM\RV31\INC 
+-I E:\keilforarm\ARM\CMSIS\Include 
+-I E:\keilforarm\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\infrared.o" --omf_browse "..\OBJ\infrared.crf" --depend "..\OBJ\infrared.d" "..\HARDWARE\infrared\infrared.c"
